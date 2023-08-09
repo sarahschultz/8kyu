@@ -80,8 +80,11 @@ public class ShortLongShort
 {
     public static string Solution(string a, string b)
     {
-    return (a.length > b.length) ? (b + a + b)
-    :
-    (a + b + a);
+    return (a.Length > b.Length) ? (b + a + b) : (a + b + a);
     }
 }
+
+//Passed yay!!
+
+
+// 8kyu Multiply
