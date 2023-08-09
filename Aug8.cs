@@ -65,3 +65,23 @@ public static class Kata
 
 //  8kyu Short Long Short
 //  Given 2 strings, a and b, return a string of the form short+long+short, with the shorter string on the outside and the longer string on the inside. The strings will not be the same length, but they may be empty ( zero length ).
+
+// For example: (Input1, Input2) --> output
+
+// ("1", "22") --> "1221"
+// ("22", "1") --> "1221"
+
+// pseudocode or my thinking process:
+// Initially I omega overthought this. Let's think about it as if string a is assumed longer and write a ternary around that single piece of logic!!
+//    so basically longStringA then print shortStringB + longStringA + shortStringB
+//    otherwise, flip it longStringB + shortStringA + longStringB
+// My solution:
+public class ShortLongShort
+{
+    public static string Solution(string a, string b)
+    {
+    return (a.length > b.length) ? (b + a + b)
+    :
+    (a + b + a);
+    }
+}
