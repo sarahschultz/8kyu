@@ -22,3 +22,12 @@ public class CustomMath {
 }
 
 // HECK YEAH! Just had to add the asterisk - I literally thought C# was going to mess with me by having a different operator symbol or something. Thankfully C# seems to respect the math I'm used to lol
+
+// Take an array and remove every second element from the array. Always keep the first element and start removing with the next element.
+
+// Example:
+["Keep", "Remove", "Keep", "Remove", "Keep", ...] --> ["Keep", "Keep", "Keep", ...]
+
+// None of the arrays will be empty, so you don't have to worry about that!
+
+// My Pseudocode
